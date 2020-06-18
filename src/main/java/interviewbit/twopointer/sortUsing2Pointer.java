@@ -14,14 +14,41 @@ import java.util.List;
  * <p>
  * E.g. 1,1,0,2,2,0,1,2,0
  */
-public class sdgdf {
+public class sortUsing2Pointer {
     public static void main(String[] args) {
-        sort(Arrays.asList(1, 1, 0, 2, 2, 0, 1, 2, 0)).forEach(j -> System.out.print(j + " "));
+        sort(Arrays.asList(1,
+                           1,
+                           0,
+                           2,
+                           2,
+                           0,
+                           1,
+                           2,
+                           0)).forEach(j -> System.out.print(j + " "));
         System.out.println();
-        sort(Arrays.asList(0, 2, 0, 1, 1, 0, 2, 2, 0, 1, 2, 0)).forEach(j -> System.out.print(j + " "));
+        sort(Arrays.asList(0,
+                           2,
+                           0,
+                           1,
+                           1,
+                           0,
+                           2,
+                           2,
+                           0,
+                           1,
+                           2,
+                           0)).forEach(j -> System.out.print(j + " "));
         System.out.println();
-        sort(Arrays.asList(0, 0, 1, 1, 2, 2, 1, 1, 2, 0)).forEach(j -> System.out.print(j + " "));
-
+        sort(Arrays.asList(0,
+                           0,
+                           1,
+                           1,
+                           2,
+                           2,
+                           1,
+                           1,
+                           2,
+                           0)).forEach(j -> System.out.print(j + " "));
     }
 
     private static void swap(int a, int b) {
@@ -53,7 +80,6 @@ public class sdgdf {
             }
             a.forEach(j -> System.out.print(j + " "));
             System.out.println("mid -->" + mid + " left --> " + left + " right-->" + right);
-
         }
         return a;
     }

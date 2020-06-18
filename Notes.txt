@@ -1,0 +1,7 @@
+2 pointers ==>
+Greedy ==>
+        Q.) Given a sorted matrix in row-wise as well as column-wise in ascending order. Find Kth Minimum Element.
+        A.)
+        Q.) Find the subset of size k which give maximum sum.
+        A.) create a max heap of K element.
+        Q.)Given an array. find the minimum product sum
