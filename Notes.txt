@@ -5,3 +5,16 @@ Greedy ==>
         Q.) Find the subset of size k which give maximum sum.
         A.) create a max heap of K element.
         Q.)Given an array. find the minimum product sum
+
+Searching ==>
+        Concept.)Binary search
+        Concept.)Binary search complexity analysis
+        Concept.)Ternary Search
+        Concept.)Ternary search complexity analysis
+        Q.)Find element in rotated sorted array
+        A.)
+        Q.)Given an unsorted array find any peak element. Peak element is defined as A[i] > A[i+1] && A[i] > A[i-1]
+        A.)
+        Q.)Given an unsorted array find the kth largest element .
+        A.)
+        Q.)Aggressive Cows. Given n cows. Place them as far as possible.
