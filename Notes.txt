@@ -18,3 +18,8 @@ Searching ==>
         Q.)Given an unsorted array find the kth largest element .
         A.)
         Q.)Aggressive Cows. Given n cows. Place them as far as possible.
+
+BackTracking ==>
+            Q)Print all subset.
+            A.)
+            Q.)

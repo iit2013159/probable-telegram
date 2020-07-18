@@ -20,6 +20,12 @@
             <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.jogamp.gluegen/gluegen-rt-main -->
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.0.0-alpha-6</version>
+        </dependency>
 
         <dependency>
             <groupId>org.jogamp.gluegen</groupId>
