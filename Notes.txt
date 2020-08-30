@@ -1,4 +1,12 @@
 2 pointers ==>
+    Q.)Given an unsorted array which has only 3 values of 0,1,2.
+       sort the array in single pass in O(n) time complexity ,
+       avoid counting and O(1) spaces.
+    A.)package interviewbit.twopointer.sortUsing2Pointer;
+    Q.)Given a sorted array .Find the number of pairs of having sum 'K'
+    A.)package interviewbit.twopointer.PairSum;
+    Q.)
+
 Greedy ==>
         Q.) Given a sorted matrix in row-wise as well as column-wise in ascending order. Find Kth Minimum Element.
         A.)
@@ -23,3 +31,19 @@ BackTracking ==>
             Q)Print all subset.
             A.)
             Q.)
+L51 LLD2 ==>
+    a)Builder pattern
+    b)Stateful vs stateless ==>1:12
+    c)Singleton
+ L52 LLD3 ==>
+    a)Factory Pattern
+    b)Design Stack overflow
+    c)Design Movie booking
+ L53 LLD4 ==>
+    a)Cascade Pattern
+ L54 LLD5 ==>
+    a)Design hotel management system
+ L55 LLD6 ==>
+    a)Design BookMyShow
+ L56 LLD7 ==>
+    a)General Machine coding

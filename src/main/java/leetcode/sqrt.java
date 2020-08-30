@@ -14,7 +14,8 @@ public class sqrt {
         int mid = 0;
         while (lo < hi) {
             mid = lo + (hi - lo) / 2;
-            if (mid == x / mid || ((mid + 1) > x / (mid + 1) && mid < x / mid)) {
+            if (mid == x / mid ||
+                ((mid + 1) > x / (mid + 1) && mid < x / mid)) {
                 return mid;
             } else if (mid < x / mid) {
                 lo = mid - 1;

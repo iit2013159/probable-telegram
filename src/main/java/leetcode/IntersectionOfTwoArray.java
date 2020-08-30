@@ -1,6 +1,9 @@
 package leetcode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -32,6 +35,7 @@ public class IntersectionOfTwoArray {
                                 new int[]{2, 2}))
                 .forEach(i -> System.out.print(i + " "));
         System.out.println();
+
     }
 
     public static int[] intersect(int[] nums1, int[] nums2) {

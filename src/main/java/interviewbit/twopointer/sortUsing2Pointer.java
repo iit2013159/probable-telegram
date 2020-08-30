@@ -24,7 +24,8 @@ public class sortUsing2Pointer {
                            0,
                            1,
                            2,
-                           0)).forEach(j -> System.out.print(j + " "));
+                           0))
+                .forEach(j -> System.out.print(j + " "));
         System.out.println();
         sort(Arrays.asList(0,
                            2,
@@ -37,7 +38,8 @@ public class sortUsing2Pointer {
                            0,
                            1,
                            2,
-                           0)).forEach(j -> System.out.print(j + " "));
+                           0))
+                .forEach(j -> System.out.print(j + " "));
         System.out.println();
         sort(Arrays.asList(0,
                            0,
@@ -48,7 +50,8 @@ public class sortUsing2Pointer {
                            1,
                            1,
                            2,
-                           0)).forEach(j -> System.out.print(j + " "));
+                           0))
+                .forEach(j -> System.out.print(j + " "));
     }
 
     private static void swap(int a, int b) {

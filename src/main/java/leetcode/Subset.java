@@ -11,10 +11,9 @@ public class Subset {
         print(output);
         List<List<Integer>> outp = subsets(1,
                                            2,
-                                           3);
+                                           3,
+                                           4);
         print(outp);
-
-
     }
 
     private static void print(List<List<Integer>> output) {
